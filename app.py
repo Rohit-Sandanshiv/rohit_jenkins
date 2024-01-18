@@ -3,5 +3,7 @@ def my_func(x):
     for i in x:
         sum+=i
     return sum
-print(my_func)
+x=input()
+x=map(int,x.split())
+print(my_func(x))
       
